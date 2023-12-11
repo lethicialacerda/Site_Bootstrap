@@ -1,0 +1,33 @@
+@import "./imgsMenu.css";
+@import "./menuOpcoes.css";
+@import "./produtos.css";
+@import "./sectionPromoces.css";
+@import "./formulario.css";
+@import "./footer.css";
+
+
+#nav{
+    height: 85px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #589152;
+}
+
+#logo{
+    width: 190px;
+}
+
+#menu{
+    width: 250px;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    text-align: center;
+    font-family: 'Quicksand';
+    font-weight: 500;
+    color: white;
+} 

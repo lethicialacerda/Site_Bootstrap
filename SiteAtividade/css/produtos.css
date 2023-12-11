@@ -1,0 +1,52 @@
+#section4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#tituloSection4{
+    text-align: center;
+    padding-bottom: 50px;
+    font-family: 'Quicksand';
+    font-weight: 600;
+    color: #f7850a;
+}
+
+
+#cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#card{
+    border-radius: 20px 20px 0 0;
+    border: none;
+}
+
+.imgCard{
+    width: 100%;
+    height: 250px;
+    background-color: #f7850a;
+    border-radius: 20px 20px 0 0;
+}
+
+#cardbody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#btnCard{
+    width: 130px;
+    text-align: center;
+    background-color: #f7850a ;
+    border: none;
+}
+
+#btnCard:hover{
+    background-color:#589152;
+}
+

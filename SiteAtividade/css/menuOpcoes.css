@@ -1,0 +1,28 @@
+#categorias{
+    height:60px;
+    background-color: #f7850a;
+    border-radius: 0px 0px 20px 20px;
+}
+
+#opcoes{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    color: white;
+    font-family: 'Quicksand';
+    font-weight: 500;
+    font-size: medium;
+}
+
+a:link{
+    text-decoration: none;
+    color: none;
+}
+
+a:visited{
+    color: white;
+}

@@ -1,0 +1,15 @@
+#imagens{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.img{
+    width: 500px;
+    border-radius: 50% 20% / 10% 40%;
+}
+
+ 
